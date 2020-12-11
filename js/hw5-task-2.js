@@ -1,8 +1,8 @@
 class User {
-    constructor(userInfo) {
-        this.name = userInfo.name;
-        this.age = userInfo.age;
-        this.followers = userInfo.followers;
+    constructor({ name, age, followers }) {
+        this.name = name;
+        this.age = age;
+        this.followers = followers;
 
     }
     getInfo() {
